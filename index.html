@@ -1,0 +1,74 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cuestionario sobre Los Villares (Jaén)</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="miapp.js"> </script>
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Cuestionario sobre Los Villares (Jaén)</h1>
+            <form id="quiz-form">
+                <ol>
+                    <li>
+                        <p>Los Villares está ubicado en la provincia de Jaén.</p>
+                        <label><input type="radio" name="q1" value="Verdadero"> Verdadero</label>
+                        <label><input type="radio" name="q1" value="Falso"> Falso</label>
+                    </li>
+                    <li>
+                        <p>La población de Los Villares supera los 10,000 habitantes.</p>
+                        <label><input type="radio" name="q2" value="Verdadero"> Verdadero</label>
+                        <label><input type="radio" name="q2" value="Falso"> Falso</label>
+                    </li>
+                    <li>
+                        <p>El río Guadalquivir pasa por Los Villares.</p>
+                        <label><input type="radio" name="q3" value="Verdadero"> Verdadero</label>
+                        <label><input type="radio" name="q3" value="Falso"> Falso</label>
+                    </li>
+                    <li>
+                        <p>La iglesia de San Juan Bautista es un monumento famoso en Los Villares.</p>
+                        <label><input type="radio" name="q4" value="Verdadero"> Verdadero</label>
+                        <label><input type="radio" name="q4" value="Falso"> Falso</label>
+                    </li>
+                    <li>
+                        <p>Los Villares está en la comarca de la Sierra Sur.</p>
+                        <label><input type="radio" name="q5" value="Verdadero"> Verdadero</label>
+                        <label><input type="radio" name="q5" value="Falso"> Falso</label>
+                    </li>
+                    <li>
+                        <p>La patrona de Los Villares es la Virgen Nuestra Señora del Rosario.</p>
+                        <label><input type="radio" name="q6" value="Verdadero"> Verdadero</label>
+                        <label><input type="radio" name="q6" value="Falso"> Falso</label>
+                    </li>
+                    <li>
+                        <p>La festividad del patrón San Juan Bautista es el 24 de julio.</p>
+                        <label><input type="radio" name="q7" value="Verdadero"> Verdadero</label>
+                        <label><input type="radio" name="q7" value="Falso"> Falso</label>
+                    </li>
+                    <li>
+                        <p>El mimbre y la agricultura ha sido la principal fuente económica del municipio.</p>
+                        <label><input type="radio" name="q8" value="Verdadero"> Verdadero</label>
+                        <label><input type="radio" name="q8" value="Falso"> Falso</label>
+                    </li>
+                    <li>
+                        <p>El Palacio del Vizconde es llamado coloquialmente como Palacio Grande.</p>
+                        <label><input type="radio" name="q9" value="Verdadero"> Verdadero</label>
+                        <label><input type="radio" name="q9" value="Falso"> Falso</label>
+                    </li>
+                    <li>
+                        <p>El nacimiento del Río Frío es una surgencia de agua que emana en las estribaciones de la Sierra de la Pandera.</p>
+                        <label><input type="radio" name="q10" value="Verdadero"> Verdadero</label>
+                        <label><input type="radio" name="q10" value="Falso"> Falso</label>
+                    </li>
+                    <!-- Agrega más preguntas aquí -->
+                </ol>
+                <button type="button" onclick="checkAnswers()">Comprobar Respuestas</button>
+            </form>
+            <div id="results"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
